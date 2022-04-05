@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.link-intersystems</groupId>
         <artifactId>lis-central-pom</artifactId>
-        <version>1-SNAPSHOT</version>
+        <version>1</version>
     </parent>
 
     <artifactId>lis-central-jar</artifactId>
@@ -13,6 +13,9 @@
     <packaging>pom</packaging>
 
     <name>Link Intersystems Central JAR</name>
+
+    <description>Parent pom for libraries deployed to the maven central repository.</description>
+
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -143,4 +146,12 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <scm>
+        <url>https://github.com/link-intersystems/lis-central-jar</url>
+        <developerConnection>scm:git:https://github.com/link-intersystems/lis-central-jar.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <url>https://github.com/link-intersystems/lis-central-jar</url>
 </project>
