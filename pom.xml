@@ -8,7 +8,7 @@
     </parent>
 
     <artifactId>lis-central-jar</artifactId>
-    <version>8.6</version>
+    <version>8.7-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Link Intersystems Central JAR</name>
@@ -181,7 +181,7 @@
     <scm>
         <url>https://github.com/link-intersystems/lis-central-jar</url>
         <developerConnection>scm:git:https://github.com/link-intersystems/lis-central-jar.git</developerConnection>
-        <tag>lis-central-jar-8.6</tag>
+        <tag>lis-central-jar-8.4</tag>
     </scm>
 
     <url>https://github.com/link-intersystems/lis-central-jar</url>
