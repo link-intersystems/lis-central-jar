@@ -19,6 +19,8 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <javadoc.opts>-Xdoclint:none</javadoc.opts>
+        <coveralls.java.xml.api.version>2.3.1</coveralls.java.xml.api.version>
+        <coveralls.java.xml.version>4.0.3</coveralls.java.xml.version>
     </properties>
 
     <profiles>
@@ -114,6 +116,23 @@
                                 <!--suppress UnresolvedMavenProperty -->
                                 <repoToken>${env.COVERALLS_TOKEN}</repoToken>
                             </configuration>
+                            <dependencies>
+                                <dependency>
+                                    <groupId>javax.xml.bind</groupId>
+                                    <artifactId>jaxb-api</artifactId>
+                                    <version>${coveralls.java.xml.api.version}</version>
+                                </dependency>
+                                <dependency>
+                                    <groupId>com.sun.xml.bind</groupId>
+                                    <artifactId>jaxb-core</artifactId>
+                                    <version>${coveralls.java.xml.version}</version>
+                                </dependency>
+                                <dependency>
+                                    <groupId>com.sun.xml.bind</groupId>
+                                    <artifactId>jaxb-impl</artifactId>
+                                    <version>${coveralls.java.xml.version}</version>
+                                </dependency>
+                            </dependencies>
                         </plugin>
                     </plugins>
                 </pluginManagement>
