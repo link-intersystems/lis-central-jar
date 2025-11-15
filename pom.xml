@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.link-intersystems</groupId>
         <artifactId>lis-central-pom</artifactId>
-        <version>6</version>
+        <version>7</version>
     </parent>
 
     <artifactId>lis-central-jar</artifactId>
