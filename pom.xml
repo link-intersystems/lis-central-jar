@@ -4,11 +4,11 @@
     <parent>
         <groupId>com.link-intersystems</groupId>
         <artifactId>lis-central-pom</artifactId>
-        <version>6</version>
+        <version>7</version>
     </parent>
 
     <artifactId>lis-central-jar</artifactId>
-    <version>11.1-SNAPSHOT</version>
+    <version>17.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Link Intersystems Central JAR</name>
@@ -16,8 +16,8 @@
     <description>Parent pom for libraries deployed to the maven central repository.</description>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <javadoc.opts>-Xdoclint:none</javadoc.opts>
         <coveralls.java.xml.api.version>2.3.1</coveralls.java.xml.api.version>
         <coveralls.java.xml.version>4.0.3</coveralls.java.xml.version>
